@@ -1,0 +1,3 @@
+[INFO][2017-01-05 13:19:37,992][org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:982)] Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Wed Jan 04 18:37:41 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-01-05 13:19:37,999][org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:982)] Closing Root WebApplicationContext: startup date [Wed Jan 04 18:37:35 CST 2017]; root of context hierarchy
+[INFO][2017-01-05 13:19:38,056][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1288)] {dataSource-1} closed

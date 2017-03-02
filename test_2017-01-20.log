@@ -1,0 +1,6 @@
+[INFO][2017-01-20 11:41:59,016][com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:638)] {dataSource-1} inited
+[INFO][2017-01-20 11:49:52,866][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1288)] {dataSource-1} closed
+[INFO][2017-01-20 11:50:16,329][com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:638)] {dataSource-1} inited
+[INFO][2017-01-20 11:52:03,226][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1288)] {dataSource-1} closed
+[INFO][2017-01-20 11:53:02,124][com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:638)] {dataSource-1} inited
+[INFO][2017-01-20 13:28:11,896][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1288)] {dataSource-1} closed

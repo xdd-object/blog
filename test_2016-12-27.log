@@ -1,0 +1,2 @@
+[INFO][2016-12-27 10:54:58,053][com.java.xdd.test.LogTest.testLog(LogTest.java:12)]---这是测试记录日志的信息！---
+[INFO][2016-12-27 10:55:34,474][com.java.xdd.test.LogTest.testLog(LogTest.java:12)] ---这是测试记录日志的信息！---

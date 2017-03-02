@@ -1,0 +1,1210 @@
+[INFO][2017-02-07 09:44:48,405][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1288)] {dataSource-1} closed
+[INFO][2017-02-07 14:00:58,488][org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)] Root WebApplicationContext: initialization started
+[INFO][2017-02-07 14:00:58,683][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing Root WebApplicationContext: startup date [Tue Feb 07 14:00:58 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 14:00:58,730][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][2017-02-07 14:00:59,062][org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:345)] Root WebApplicationContext: initialization completed in 570 ms
+[INFO][2017-02-07 14:00:59,132][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)] FrameworkServlet 'springMVC': initialization started
+[INFO][2017-02-07 14:00:59,139][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Feb 07 14:00:59 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-02-07 14:00:59,141][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [servlet.xml]
+[INFO][2017-02-07 14:01:00,119][org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)] Mapped "{[/mySocketTest]}" onto public java.lang.String com.java.xdd.websocket.spring.MySocketController.aa()
+[INFO][2017-02-07 14:01:01,100][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Feb 07 14:00:59 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-02-07 14:01:01,177][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Feb 07 14:00:59 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-02-07 14:01:01,333][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:354)] Mapped URL path [/websocket] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+[INFO][2017-02-07 14:01:01,440][org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:341)] Starting beans in phase 2147483647
+[INFO][2017-02-07 14:01:01,490][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)] FrameworkServlet 'springMVC': initialization completed in 2357 ms
+[WARN][2017-02-07 14:01:04,599][org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1147)] No mapping found for HTTP request with URI [/js/sockjs/sockjs.min.js] in DispatcherServlet with name 'springMVC'
+[INFO][2017-02-07 14:01:18,278][org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:982)] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Feb 07 14:00:59 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-02-07 14:01:18,280][org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:356)] Stopping beans in phase 2147483647
+[INFO][2017-02-07 14:01:18,286][org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:356)] Stopping beans in phase 0
+[INFO][2017-02-07 14:01:18,301][org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:982)] Closing Root WebApplicationContext: startup date [Tue Feb 07 14:00:58 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 14:32:10,495][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75a1cd57: startup date [Tue Feb 07 14:32:10 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 14:32:10,583][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext-mina.xml]
+[INFO][2017-02-07 14:32:24,505][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 14:32:24,505][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:62651] connected.
+[INFO][2017-02-07 14:32:24,512][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 14:32:24,512][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 14:32:24,513][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 14:32:24,516][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 14:32:24,522][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 14:32:24,526][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 14:32:24,527][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 14:32:24,527][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 14:32:24,527][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 14:32:24,527][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 14:32:24,527][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 14:32:24,527][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 14:32:24,532][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 14:32:24,533][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[INFO][2017-02-07 14:32:24,534][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 14:32:24,535][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 14:32:24,533][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 14:32:24,537][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 14:32:30,532][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 14:32:30,533][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[WARN][2017-02-07 14:32:30,535][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[INFO][2017-02-07 14:32:30,535][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 14:32:30,545][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[WARN][2017-02-07 14:32:30,545][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 14:32:30,546][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 14:32:30,546][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 14:32:30,546][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 14:32:30,547][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[INFO][2017-02-07 14:32:30,547][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 14:32:30,549][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[WARN][2017-02-07 14:32:30,551][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:130)] EXCEPTION :
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN][2017-02-07 14:32:30,557][org.apache.mina.core.service.IoHandlerAdapter.exceptionCaught(IoHandlerAdapter.java:70)] EXCEPTION, please implement com.java.xdd.test.client.ClientHandler.exceptionCaught() for proper handling:
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO][2017-02-07 14:32:30,559][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 14:40:48,294][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75a1cd57: startup date [Tue Feb 07 14:40:48 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 14:40:48,331][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext-mina.xml]
+[INFO][2017-02-07 14:40:58,294][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 14:40:58,295][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:64622] connected.
+[INFO][2017-02-07 14:40:58,300][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 14:40:58,301][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 14:40:58,301][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 14:40:58,305][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 14:40:58,311][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 14:40:58,313][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 14:40:58,313][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 14:40:58,313][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 14:40:58,313][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 14:40:58,314][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 14:40:58,314][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 14:40:58,314][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 14:40:58,322][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 14:40:58,322][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[INFO][2017-02-07 14:40:58,324][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 14:40:58,323][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 14:40:58,324][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[WARN][2017-02-07 14:40:58,326][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[INFO][2017-02-07 14:41:04,322][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 14:41:04,322][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[WARN][2017-02-07 14:41:04,323][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[INFO][2017-02-07 14:41:04,323][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 14:41:04,323][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[WARN][2017-02-07 14:41:04,323][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 14:41:04,324][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 14:41:04,324][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 14:41:04,324][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 14:41:04,324][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[INFO][2017-02-07 14:41:04,325][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 14:41:04,325][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 14:41:04,325][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 14:49:07,430][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75a1cd57: startup date [Tue Feb 07 14:49:07 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 14:49:07,473][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext-mina.xml]
+[INFO][2017-02-07 14:49:18,628][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 14:49:18,629][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:49984] connected.
+[INFO][2017-02-07 14:49:18,635][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 14:49:18,636][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 14:49:18,638][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 14:49:18,641][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 14:49:18,646][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 14:49:18,653][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 14:49:18,653][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 14:49:18,653][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 14:49:18,653][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 14:49:18,654][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 14:49:18,655][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 14:49:18,655][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 14:49:18,661][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 14:49:18,661][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 14:49:18,661][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 14:49:18,662][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 14:49:18,661][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 14:49:18,664][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[INFO][2017-02-07 14:49:24,661][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 14:49:24,661][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[INFO][2017-02-07 14:49:24,662][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 14:49:24,662][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 14:49:24,662][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 14:49:24,662][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[WARN][2017-02-07 14:49:24,663][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 14:49:24,663][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[INFO][2017-02-07 14:49:24,664][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 14:49:24,664][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 14:49:24,664][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 14:49:24,664][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 14:49:24,664][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 14:50:05,290][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 14:50:05,291][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:50093] connected.
+[INFO][2017-02-07 14:50:05,303][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 14:50:05,303][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 14:50:05,309][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 14:50:05,313][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 14:50:08,198][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 14:50:08,198][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 14:50:08,199][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 14:50:08,199][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 14:50:08,199][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 14:50:08,200][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 14:50:08,200][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 14:50:08,202][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 14:50:08,203][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 14:50:08,203][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 14:50:08,203][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 14:50:10,238][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 14:50:10,240][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 14:50:10,244][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[INFO][2017-02-07 14:50:14,202][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 14:50:14,203][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[WARN][2017-02-07 14:50:14,204][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[INFO][2017-02-07 14:50:14,204][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 14:50:14,204][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 14:50:14,205][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 14:50:14,204][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 14:50:14,205][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[WARN][2017-02-07 14:50:14,205][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 14:50:14,206][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 14:50:14,206][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[WARN][2017-02-07 14:50:14,206][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[WARN][2017-02-07 14:50:14,209][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:130)] EXCEPTION :
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN][2017-02-07 14:50:14,216][org.apache.mina.core.service.IoHandlerAdapter.exceptionCaught(IoHandlerAdapter.java:70)] EXCEPTION, please implement com.java.xdd.test.client.ClientHandler.exceptionCaught() for proper handling:
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO][2017-02-07 14:50:14,217][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 14:50:37,816][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 14:50:37,816][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:50253] connected.
+[INFO][2017-02-07 14:50:37,817][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 14:50:37,817][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 14:50:37,832][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 14:50:37,836][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 14:50:37,840][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 14:50:37,840][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 14:50:37,840][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 14:50:37,841][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 14:50:37,841][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[INFO][2017-02-07 14:50:37,841][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[WARN][2017-02-07 14:50:37,841][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 14:50:37,841][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 14:50:37,842][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 14:50:37,842][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 14:50:37,842][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 14:50:37,842][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 14:50:37,843][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 14:50:37,845][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[INFO][2017-02-07 14:50:42,842][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 14:50:42,842][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[INFO][2017-02-07 14:50:42,843][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 14:50:42,843][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 14:50:42,844][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 14:50:42,844][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[WARN][2017-02-07 14:50:42,844][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 14:50:42,844][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 14:50:42,844][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 14:50:42,844][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[INFO][2017-02-07 14:50:42,845][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 14:50:42,845][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 14:50:42,845][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 15:54:34,838][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75a1cd57: startup date [Tue Feb 07 15:54:34 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 15:54:34,889][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext-mina.xml]
+[INFO][2017-02-07 15:54:43,805][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 15:54:43,805][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:53611] connected.
+[INFO][2017-02-07 15:54:43,809][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 15:54:43,813][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 15:54:43,815][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 15:54:43,815][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 15:54:43,818][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 15:54:43,820][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 15:54:43,820][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 15:54:43,835][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 15:54:43,835][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 15:54:43,835][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 15:54:43,836][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 15:54:43,836][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 15:54:43,841][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 15:54:43,841][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 15:54:43,841][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 15:54:43,842][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 15:54:43,843][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 15:54:43,844][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[INFO][2017-02-07 15:54:49,840][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 15:54:49,841][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[WARN][2017-02-07 15:54:49,842][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 15:54:49,843][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 15:54:49,844][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 15:54:49,844][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 15:54:49,845][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 15:54:49,846][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[INFO][2017-02-07 15:54:49,846][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 15:54:49,846][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 15:54:49,847][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 15:54:49,847][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[WARN][2017-02-07 15:54:49,848][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:130)] EXCEPTION :
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN][2017-02-07 15:54:49,851][org.apache.mina.core.service.IoHandlerAdapter.exceptionCaught(IoHandlerAdapter.java:70)] EXCEPTION, please implement com.java.xdd.test.client.ClientHandler.exceptionCaught() for proper handling:
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO][2017-02-07 15:54:49,853][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:00:27,169][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75a1cd57: startup date [Tue Feb 07 16:00:27 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 16:00:27,208][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext-mina.xml]
+[WARN][2017-02-07 16:00:27,579][org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ioAcceptor' defined in class path resource [applicationContext-mina.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress': no matching editors or conversion strategy found
+[INFO][2017-02-07 16:00:58,842][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75a1cd57: startup date [Tue Feb 07 16:00:58 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 16:00:58,878][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext-mina.xml]
+[WARN][2017-02-07 16:00:59,260][org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ioAcceptor' defined in class path resource [applicationContext-mina.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress': no matching editors or conversion strategy found
+[INFO][2017-02-07 16:01:05,927][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75a1cd57: startup date [Tue Feb 07 16:01:05 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 16:01:05,963][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext-mina.xml]
+[INFO][2017-02-07 16:01:21,523][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:01:21,524][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:55282] connected.
+[INFO][2017-02-07 16:01:21,526][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:01:21,527][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 16:01:21,528][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:01:21,531][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:01:21,537][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:01:21,538][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[INFO][2017-02-07 16:01:21,539][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[WARN][2017-02-07 16:01:21,540][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:01:21,540][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:01:21,540][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:01:21,540][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:01:21,540][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:01:21,544][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 16:01:21,544][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[INFO][2017-02-07 16:01:21,545][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 16:01:21,544][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:01:21,545][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[WARN][2017-02-07 16:01:21,547][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[INFO][2017-02-07 16:01:27,544][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 16:01:27,545][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[WARN][2017-02-07 16:01:27,546][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[INFO][2017-02-07 16:01:27,547][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 16:01:27,547][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 16:01:27,548][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 16:01:27,548][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[WARN][2017-02-07 16:01:27,549][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[INFO][2017-02-07 16:01:27,550][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:01:27,550][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[WARN][2017-02-07 16:01:27,551][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 16:01:27,553][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[WARN][2017-02-07 16:01:27,555][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:130)] EXCEPTION :
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN][2017-02-07 16:01:27,557][org.apache.mina.core.service.IoHandlerAdapter.exceptionCaught(IoHandlerAdapter.java:70)] EXCEPTION, please implement com.java.xdd.test.client.ClientHandler.exceptionCaught() for proper handling:
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO][2017-02-07 16:01:27,558][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:07:36,914][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:07:36,914][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:56430] connected.
+[INFO][2017-02-07 16:07:36,916][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:07:36,916][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 16:07:36,929][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:07:36,932][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:07:36,937][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:07:36,937][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:36,937][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:36,937][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:36,937][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[INFO][2017-02-07 16:07:36,937][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[WARN][2017-02-07 16:07:36,937][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:07:36,938][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:07:36,938][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 16:07:36,939][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 16:07:36,939][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:07:36,939][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 16:07:36,939][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 16:07:36,941][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[INFO][2017-02-07 16:07:41,940][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:07:41,941][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:56456] connected.
+[INFO][2017-02-07 16:07:41,941][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:07:41,941][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[INFO][2017-02-07 16:07:41,941][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:07:41,941][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[INFO][2017-02-07 16:07:41,942][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:07:41,942][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 16:07:41,942][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 16:07:41,942][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 16:07:41,943][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 16:07:41,943][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 16:07:41,943][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[WARN][2017-02-07 16:07:41,943][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 16:07:41,943][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 16:07:41,943][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 16:07:41,943][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:07:41,944][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:41,944][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:41,944][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[INFO][2017-02-07 16:07:41,943][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[WARN][2017-02-07 16:07:41,944][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:41,945][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:07:41,945][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:07:41,945][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:07:41,945][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:07:41,945][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 16:07:41,947][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[INFO][2017-02-07 16:07:41,947][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 16:07:41,947][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 16:07:41,947][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 16:07:41,947][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:07:41,948][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 16:07:46,952][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:07:46,952][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:56477] connected.
+[INFO][2017-02-07 16:07:46,954][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:07:46,954][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 16:07:46,954][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:07:46,958][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:07:46,960][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 16:07:46,961][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:07:46,962][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:46,962][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:46,963][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:46,963][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:46,964][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:07:46,964][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:07:46,967][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[INFO][2017-02-07 16:07:46,967][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 16:07:46,968][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 16:07:46,968][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 16:07:46,968][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:07:46,969][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 16:07:47,947][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 16:07:47,947][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[INFO][2017-02-07 16:07:47,948][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 16:07:47,948][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 16:07:47,949][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[WARN][2017-02-07 16:07:47,949][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 16:07:47,949][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 16:07:47,950][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[INFO][2017-02-07 16:07:47,951][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 16:07:47,951][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 16:07:47,952][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:07:47,952][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[WARN][2017-02-07 16:07:47,954][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:130)] EXCEPTION :
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN][2017-02-07 16:07:47,957][org.apache.mina.core.service.IoHandlerAdapter.exceptionCaught(IoHandlerAdapter.java:70)] EXCEPTION, please implement com.java.xdd.test.client.ClientHandler.exceptionCaught() for proper handling:
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO][2017-02-07 16:07:47,958][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:07:51,972][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:07:51,973][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:56497] connected.
+[INFO][2017-02-07 16:07:51,974][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:07:51,975][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 16:07:51,975][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:07:51,976][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:07:51,977][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 16:07:51,978][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:07:51,978][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:51,979][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:51,979][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:51,979][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:51,979][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:07:51,980][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:07:51,981][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[INFO][2017-02-07 16:07:51,981][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 16:07:51,982][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 16:07:51,982][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:07:51,982][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 16:07:51,982][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 16:07:52,967][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 16:07:52,968][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[INFO][2017-02-07 16:07:52,970][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 16:07:52,971][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 16:07:52,971][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 16:07:52,973][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[WARN][2017-02-07 16:07:52,973][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 16:07:52,974][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 16:07:52,975][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 16:07:52,975][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 16:07:52,976][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:07:52,977][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: 1112
+[WARN][2017-02-07 16:07:52,977][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1112
+[WARN][2017-02-07 16:07:52,977][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: 1112
+[WARN][2017-02-07 16:07:52,978][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1112
+[WARN][2017-02-07 16:07:52,978][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: 1112
+[INFO][2017-02-07 16:07:52,979][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:07:52,979][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 16:07:56,980][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:07:56,980][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:56519] connected.
+[INFO][2017-02-07 16:07:56,981][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:07:56,981][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:07:56,981][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:07:56,981][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 16:07:56,982][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 16:07:56,982][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:07:56,983][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:56,983][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:56,983][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:56,983][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:07:56,983][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:07:56,983][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:07:56,984][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[INFO][2017-02-07 16:07:56,984][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 16:07:56,984][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 16:07:56,984][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 16:07:56,984][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:07:56,985][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 16:07:57,981][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 16:07:57,981][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[INFO][2017-02-07 16:07:57,982][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 16:07:57,982][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 16:07:57,983][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 16:07:57,983][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[WARN][2017-02-07 16:07:57,983][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 16:07:57,983][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 16:07:57,983][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 16:07:57,983][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[INFO][2017-02-07 16:07:57,984][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:07:57,984][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 16:07:57,984][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:08:01,986][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:08:01,987][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:56539] connected.
+[INFO][2017-02-07 16:08:01,988][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:08:01,988][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 16:08:01,988][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:08:01,988][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:08:01,989][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 16:08:01,990][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:08:01,990][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:01,990][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:01,991][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:01,991][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:01,991][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:08:01,991][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:08:01,993][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[INFO][2017-02-07 16:08:01,993][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 16:08:01,993][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:01,993][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:01,993][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 16:08:01,993][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 16:08:02,984][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 16:08:02,984][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[INFO][2017-02-07 16:08:02,985][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 16:08:02,986][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 16:08:02,986][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 16:08:02,986][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[WARN][2017-02-07 16:08:02,987][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 16:08:02,987][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[INFO][2017-02-07 16:08:02,988][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 16:08:02,988][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 16:08:02,989][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:08:02,989][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:08:02,990][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 16:08:06,993][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 16:08:06,994][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[INFO][2017-02-07 16:08:06,995][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 16:08:06,997][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 16:08:06,998][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[WARN][2017-02-07 16:08:06,996][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 16:08:06,999][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 16:08:07,000][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 16:08:07,000][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 16:08:07,000][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[INFO][2017-02-07 16:08:07,001][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:08:07,001][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[WARN][2017-02-07 16:08:07,001][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:130)] EXCEPTION :
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO][2017-02-07 16:08:07,002][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:08:07,003][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:56594] connected.
+[WARN][2017-02-07 16:08:07,003][org.apache.mina.core.service.IoHandlerAdapter.exceptionCaught(IoHandlerAdapter.java:70)] EXCEPTION, please implement com.java.xdd.test.client.ClientHandler.exceptionCaught() for proper handling:
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO][2017-02-07 16:08:07,004][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:08:07,008][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:08:07,008][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 16:08:07,015][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:08:07,015][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:08:07,017][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 16:08:07,018][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:08:07,018][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:07,018][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:07,019][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:07,019][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:07,019][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:08:07,020][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:08:07,022][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[INFO][2017-02-07 16:08:07,022][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 16:08:07,022][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:07,023][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:07,023][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[WARN][2017-02-07 16:08:07,023][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[INFO][2017-02-07 16:08:12,020][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:08:12,020][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:56652] connected.
+[INFO][2017-02-07 16:08:12,020][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:08:12,021][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 16:08:12,021][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:08:12,021][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:08:12,022][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 16:08:12,022][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:08:12,022][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:12,023][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:12,023][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:12,023][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:12,023][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:08:12,024][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:08:12,025][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[INFO][2017-02-07 16:08:12,025][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 16:08:12,025][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:12,025][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 16:08:12,025][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:12,025][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 16:08:13,022][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 16:08:13,022][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[INFO][2017-02-07 16:08:13,024][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 16:08:13,025][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 16:08:13,025][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 16:08:13,025][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[WARN][2017-02-07 16:08:13,025][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 16:08:13,026][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[INFO][2017-02-07 16:08:13,026][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[WARN][2017-02-07 16:08:13,026][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 16:08:13,027][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:08:13,027][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 16:08:13,027][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:08:17,025][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 16:08:17,025][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[WARN][2017-02-07 16:08:17,026][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[INFO][2017-02-07 16:08:17,026][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 16:08:17,027][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 16:08:17,027][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 16:08:17,028][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[WARN][2017-02-07 16:08:17,026][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 16:08:17,029][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:08:17,029][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:56719] connected.
+[INFO][2017-02-07 16:08:17,029][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:08:17,030][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:08:17,030][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 16:08:17,031][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 16:08:17,031][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:08:17,031][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[WARN][2017-02-07 16:08:17,032][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 16:08:17,032][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:08:17,032][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:08:17,032][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 16:08:17,033][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:08:17,033][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:17,034][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:17,034][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:17,034][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:17,034][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:08:17,034][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:08:17,036][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[INFO][2017-02-07 16:08:17,036][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 16:08:17,036][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:17,036][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:17,036][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 16:08:17,036][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 16:08:22,036][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 16:08:22,036][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[WARN][2017-02-07 16:08:22,037][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 16:08:22,038][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 16:08:22,038][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:08:22,038][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:56745] connected.
+[INFO][2017-02-07 16:08:22,038][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 16:08:22,039][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 16:08:22,039][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 16:08:22,040][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[INFO][2017-02-07 16:08:22,040][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[WARN][2017-02-07 16:08:22,040][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 16:08:22,041][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:08:22,041][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[WARN][2017-02-07 16:08:22,041][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:130)] EXCEPTION :
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO][2017-02-07 16:08:22,041][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:08:22,041][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[WARN][2017-02-07 16:08:22,041][org.apache.mina.core.service.IoHandlerAdapter.exceptionCaught(IoHandlerAdapter.java:70)] EXCEPTION, please implement com.java.xdd.test.client.ClientHandler.exceptionCaught() for proper handling:
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO][2017-02-07 16:08:22,041][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:08:22,042][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:08:22,042][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:08:22,044][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 16:08:22,045][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:08:22,045][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:22,045][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:22,046][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:22,046][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:22,047][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:08:22,047][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:08:22,049][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[INFO][2017-02-07 16:08:22,049][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[WARN][2017-02-07 16:08:22,049][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:22,049][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 16:08:22,050][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:22,050][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 16:08:27,046][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:08:27,046][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:56794] connected.
+[INFO][2017-02-07 16:08:27,047][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:08:27,047][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:08:27,047][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:08:27,047][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 16:08:27,049][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 16:08:27,050][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:08:27,050][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:27,050][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:27,050][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:27,050][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:27,051][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:08:27,051][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:08:27,052][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[INFO][2017-02-07 16:08:27,052][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 16:08:27,052][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:27,052][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:27,052][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[WARN][2017-02-07 16:08:27,052][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[INFO][2017-02-07 16:08:28,049][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 16:08:28,049][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[INFO][2017-02-07 16:08:28,050][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 16:08:28,050][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 16:08:28,050][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 16:08:28,050][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 16:08:28,051][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[WARN][2017-02-07 16:08:28,051][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 16:08:28,051][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 16:08:28,051][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 16:08:28,051][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:08:28,052][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:08:28,052][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 16:08:32,052][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] IDLE
+[WARN][2017-02-07 16:08:32,052][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[INFO][2017-02-07 16:08:32,053][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 16:08:32,053][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 16:08:32,053][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 16:08:32,053][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[WARN][2017-02-07 16:08:32,053][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 16:08:32,054][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1111
+[WARN][2017-02-07 16:08:32,054][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 16:08:32,054][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[INFO][2017-02-07 16:08:32,055][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 16:08:32,055][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 16:08:32,056][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:56822] connected.
+[INFO][2017-02-07 16:08:32,056][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 16:08:32,056][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 16:08:32,055][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:08:32,057][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 16:08:32,057][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[INFO][2017-02-07 16:08:32,057][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 16:08:32,058][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 16:08:32,058][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: hello,测试！
+[WARN][2017-02-07 16:08:32,058][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:32,059][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:32,059][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:32,059][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 16:08:32,059][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 16:08:32,060][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[INFO][2017-02-07 16:08:32,061][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: welcome by he
+[INFO][2017-02-07 16:08:32,061][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 16:08:32,061][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:32,061][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 16:08:32,061][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 16:08:32,061][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[WARN][2017-02-07 16:08:33,849][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:130)] EXCEPTION :
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN][2017-02-07 16:08:33,852][com.java.xdd.test.handler.MyHandler.exceptionCaught(MyHandler.java:20)] session occured exception, so close it.远程主机强迫关闭了一个现有的连接。
+[INFO][2017-02-07 16:08:33,852][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 16:08:33,852][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 17:14:42,513][org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)] Root WebApplicationContext: initialization started
+[INFO][2017-02-07 17:14:42,811][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing Root WebApplicationContext: startup date [Tue Feb 07 17:14:42 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 17:14:42,851][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][2017-02-07 17:14:43,101][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext-mina.xml]
+[INFO][2017-02-07 17:14:43,502][org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:345)] Root WebApplicationContext: initialization completed in 979 ms
+[INFO][2017-02-07 17:14:43,559][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)] FrameworkServlet 'springMVC': initialization started
+[INFO][2017-02-07 17:14:43,569][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Feb 07 17:14:43 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-02-07 17:14:43,570][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [servlet.xml]
+[INFO][2017-02-07 17:14:44,180][org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)] Mapped "{[/mySocketTest]}" onto public java.lang.String com.java.xdd.websocket.spring.MySocketController.aa()
+[INFO][2017-02-07 17:14:44,577][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Feb 07 17:14:43 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-02-07 17:14:44,642][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Feb 07 17:14:43 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-02-07 17:14:44,793][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:354)] Mapped URL path [/websocket] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+[INFO][2017-02-07 17:14:44,857][org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:341)] Starting beans in phase 2147483647
+[INFO][2017-02-07 17:14:44,919][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)] FrameworkServlet 'springMVC': initialization completed in 1359 ms
+[WARN][2017-02-07 17:14:46,437][org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1147)] No mapping found for HTTP request with URI [/js/sockjs/sockjs.min.js] in DispatcherServlet with name 'springMVC'
+[WARN][2017-02-07 17:15:35,602][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:59368] connected.
+[WARN][2017-02-07 17:15:35,607][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 17:15:35,609][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 17:15:35,613][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 17:15:35,620][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[WARN][2017-02-07 17:15:35,625][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 17:15:35,625][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 17:15:35,625][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 17:15:35,625][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 17:15:35,625][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 17:15:35,626][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[WARN][2017-02-07 17:15:35,632][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 17:15:35,633][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 17:15:35,633][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 17:15:35,633][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 17:15:35,635][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 17:15:40,622][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:59389] connected.
+[INFO][2017-02-07 17:15:40,623][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[WARN][2017-02-07 17:15:40,623][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 17:15:40,623][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[INFO][2017-02-07 17:15:40,624][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[WARN][2017-02-07 17:15:40,624][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 17:15:40,624][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 17:15:40,624][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 17:15:40,625][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 17:15:40,625][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 17:15:40,625][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[WARN][2017-02-07 17:15:40,626][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 17:15:40,626][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 17:15:40,626][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[INFO][2017-02-07 17:15:40,627][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 17:15:40,627][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 17:15:41,633][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[WARN][2017-02-07 17:15:41,634][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 17:15:41,634][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[INFO][2017-02-07 17:15:41,634][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 17:15:41,635][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[WARN][2017-02-07 17:15:41,635][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 17:15:41,636][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[WARN][2017-02-07 17:15:41,636][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[INFO][2017-02-07 17:15:41,638][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[WARN][2017-02-07 17:15:41,641][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:130)] EXCEPTION :
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN][2017-02-07 17:15:41,700][org.apache.mina.core.service.IoHandlerAdapter.exceptionCaught(IoHandlerAdapter.java:70)] EXCEPTION, please implement com.java.xdd.test.client.ClientHandler.exceptionCaught() for proper handling:
+java.io.IOException: 您的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:312)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:677)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO][2017-02-07 17:15:41,704][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[WARN][2017-02-07 17:15:45,626][com.java.xdd.test.filter.MyKeepAliveMessageFactory.getRequest(MyKeepAliveMessageFactory.java:18)] 请求预设信息: 1111
+[INFO][2017-02-07 17:15:45,627][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=5 cap=2048: 31 31 31 31 0A]
+[WARN][2017-02-07 17:15:45,628][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：1111
+[WARN][2017-02-07 17:15:45,628][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:16)] 收到心跳包
+[WARN][2017-02-07 17:15:45,628][com.java.xdd.test.handler.MyHandler.sessionCreated(MyHandler.java:41)] remote client [/127.0.0.1:59412] connected.
+[INFO][2017-02-07 17:15:45,629][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: 1112
+[WARN][2017-02-07 17:15:45,629][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:58)] session idle, so disconnecting......
+[WARN][2017-02-07 17:15:45,630][com.java.xdd.test.handler.MyHandler.sessionIdle(MyHandler.java:60)] disconnected.
+[WARN][2017-02-07 17:15:45,630][com.java.xdd.test.handler.MyHandler.sessionOpened(MyHandler.java:65)] sessionOpened.
+[INFO][2017-02-07 17:15:45,630][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CLOSED
+[INFO][2017-02-07 17:15:45,631][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] CREATED
+[INFO][2017-02-07 17:15:45,631][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:186)] OPENED
+[WARN][2017-02-07 17:15:45,630][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1111
+[INFO][2017-02-07 17:15:45,632][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] SENT: hello,测试！
+[WARN][2017-02-07 17:15:45,632][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1112
+[WARN][2017-02-07 17:15:45,633][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: 1112
+[WARN][2017-02-07 17:15:45,633][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: 1112
+[WARN][2017-02-07 17:15:45,633][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: 1112
+[WARN][2017-02-07 17:15:45,633][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 17:15:45,634][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 17:15:45,634][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: hello,测试！
+[WARN][2017-02-07 17:15:45,634][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: hello,测试！
+[WARN][2017-02-07 17:15:45,634][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:26)] 客户端127.0.0.1连接成功！
+[WARN][2017-02-07 17:15:45,634][com.java.xdd.test.handler.MyHandler.messageReceived(MyHandler.java:30)] 服务器收到的消息是：hello,测试！
+[WARN][2017-02-07 17:15:45,634][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 17:15:45,636][org.apache.mina.filter.logging.LoggingFilter.log(LoggingFilter.java:157)] RECEIVED: HeapBuffer[pos=0 lim=14 cap=2048: 77 65 6C 63 6F 6D 65 20 62 79 20 68 65 0A]
+[WARN][2017-02-07 17:15:45,637][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isRequest(MyKeepAliveMessageFactory.java:29)] 请求心跳包信息: welcome by he
+[WARN][2017-02-07 17:15:45,637][com.java.xdd.test.filter.MyKeepAliveMessageFactory.isResponse(MyKeepAliveMessageFactory.java:36)] 响应心跳包信息: welcome by he
+[WARN][2017-02-07 17:15:45,637][com.java.xdd.test.handler.MyHandler.messageSent(MyHandler.java:36)] messageSent:welcome by he
+[WARN][2017-02-07 17:15:45,636][com.java.xdd.test.client.ClientHandler.messageReceived(ClientHandler.java:13)] 客户端收到消息：welcome by he
+[WARN][2017-02-07 17:15:49,019][com.java.xdd.test.handler.MyHandler.exceptionCaught(MyHandler.java:20)] session occured exception, so close it.远程主机强迫关闭了一个现有的连接。
+[WARN][2017-02-07 17:15:49,020][com.java.xdd.test.handler.MyHandler.sessionClosed(MyHandler.java:50)] sessionClosed.
+[INFO][2017-02-07 17:17:10,640][org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:982)] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Feb 07 17:14:43 CST 2017]; parent: Root WebApplicationContext
+[INFO][2017-02-07 17:17:10,641][org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:356)] Stopping beans in phase 2147483647
+[INFO][2017-02-07 17:17:10,645][org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:356)] Stopping beans in phase 0
+[INFO][2017-02-07 17:17:10,652][org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:982)] Closing Root WebApplicationContext: startup date [Tue Feb 07 17:14:42 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 17:17:38,865][org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)] Root WebApplicationContext: initialization started
+[INFO][2017-02-07 17:17:39,032][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing Root WebApplicationContext: startup date [Tue Feb 07 17:17:39 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 17:17:39,078][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][2017-02-07 17:17:39,286][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext-mina.xml]
+[WARN][2017-02-07 17:17:39,515][org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ioAcceptor' defined in class path resource [applicationContext-mina.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress': no matching editors or conversion strategy found
+[ERROR][2017-02-07 17:17:39,518][org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:351)] Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ioAcceptor' defined in class path resource [applicationContext-mina.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress': no matching editors or conversion strategy found
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:776)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4793)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5236)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1675)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:463)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:413)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:324)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress': no matching editors or conversion strategy found
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertIfNecessary(AbstractNestablePropertyAccessor.java:591)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertForProperty(AbstractNestablePropertyAccessor.java:603)
+	at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:216)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1527)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	... 56 more
+Caused by: java.lang.IllegalStateException: Cannot convert value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress': no matching editors or conversion strategy found
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:306)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertIfNecessary(AbstractNestablePropertyAccessor.java:576)
+	... 62 more
+[INFO][2017-02-07 17:17:58,493][org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)] Root WebApplicationContext: initialization started
+[INFO][2017-02-07 17:17:58,617][org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)] Refreshing Root WebApplicationContext: startup date [Tue Feb 07 17:17:58 CST 2017]; root of context hierarchy
+[INFO][2017-02-07 17:17:58,669][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][2017-02-07 17:17:58,836][org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] Loading XML bean definitions from class path resource [applicationContext-mina.xml]
+[WARN][2017-02-07 17:17:59,079][org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ioAcceptor' defined in class path resource [applicationContext-mina.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress': no matching editors or conversion strategy found
+[ERROR][2017-02-07 17:17:59,083][org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:351)] Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ioAcceptor' defined in class path resource [applicationContext-mina.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress': no matching editors or conversion strategy found
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:776)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4793)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5236)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1675)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:463)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:413)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:324)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress': no matching editors or conversion strategy found
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertIfNecessary(AbstractNestablePropertyAccessor.java:591)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertForProperty(AbstractNestablePropertyAccessor.java:603)
+	at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:216)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1527)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	... 56 more
+Caused by: java.lang.IllegalStateException: Cannot convert value of type [java.lang.String] to required type [java.net.InetSocketAddress] for property 'defaultLocalAddress': no matching editors or conversion strategy found
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:306)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.convertIfNecessary(AbstractNestablePropertyAccessor.java:576)
+	... 62 more
